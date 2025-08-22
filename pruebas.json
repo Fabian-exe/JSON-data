@@ -1,70 +1,76 @@
-{
-  "id": 1,
-  "firstName": "Fabian",
-  "lastName": "Acedo",
-  "maidenName": "Coronado",
-  "age": 18,
-  "gender": "male",
-  "email": "fabianacedo@x.dummyjson.com",
-  "phone": "+81 965-431-3024",
-  "username": "emilys",
-  "password": "emilyspass",
-  "birthDate": "1996-5-30",
-  "image": "https://dummyjson.com/icon/emilys/128",
-  "bloodGroup": "O-",
-  "height": 193.24,
-  "weight": 63.16,
-  "eyeColor": "Green",
-  "hair": {
-    "color": "Brown",
-    "type": "Curly"
-  },
-  "ip": "42.48.100.32",
-  "address": {
-    "address": "626 Main Street",
-    "city": "Phoenix",
-    "state": "Mississippi",
-    "stateCode": "MS",
-    "postalCode": "29112",
-    "coordinates": {
-      "lat": -77.16213,
-      "lng": -92.084824
-    },
-    "country": "United States"
-  },
-  "macAddress": "47:fa:41:18:ec:eb",
-  "university": "University of Wisconsin--Madison",
-  "bank": {
-    "cardExpire": "03/26",
-    "cardNumber": "9289760655481815",
-    "cardType": "Elo",
-    "currency": "CNY",
-    "iban": "YPUXISOBI7TTHPK2BR3HAIXL"
-  },
-  "company": {
-    "department": "Engineering",
-    "name": "Dooley, Kozey and Cronin",
-    "title": "Sales Manager",
-    "address": {
-      "address": "263 Tenth Street",
-      "city": "San Francisco",
-      "state": "Wisconsin",
-      "stateCode": "WI",
-      "postalCode": "37657",
-      "coordinates": {
-        "lat": 71.814525,
-        "lng": -161.150263
+[
+  {
+    "id": 1,
+    "title": "Temporada 1",
+    "trama": "La trama principal de la primera temporada se centra en la introducción de los personajes y el establecimiento del conflicto central que impulsará la serie. Un joven descubre un artefacto antiguo que le otorga poderes extraordinarios, atrayendo la atención de una organización sombría que busca controlarlo.",
+    "numero_capitulos": 2,
+    "personajes": [
+      "Alex",
+      "Draven",
+      "Elara",
+      "General Kael"
+    ],
+    "capitulos": [
+      {
+        "id": 1,
+        "title": "Capítulo 1: El Despertar",
+        "trama": "En el capítulo 1, Alex aprende a controlar una nueva faceta de sus poderes mientras evade a los agentes de Kael. Elara le proporciona una pista crucial sobre el origen del artefacto.",
+        "duracion": "42 min",
+        "scenes": [
+          {
+            "id": 1,
+            "title": "ESCENA 1",
+            "location": "Apartamento de Alex",
+            "time": "NOCHE",
+            "characters": [
+              "Alex"
+            ],
+            "action": "Alex está estudiando cuando una extraña luz emana de la caja que encontró en el ático. La abre y descubre el artefacto. Al tocarlo, una oleada de energía lo recorre."
+          },
+          {
+            "id": 2,
+            "title": "ESCENA 2",
+            "location": "Callejón Oscuro",
+            "time": "NOCHE",
+            "characters": [
+              "Alex",
+              "Agente 1",
+              "Agente 2"
+            ],
+            "action": "Alex intenta escapar de dos hombres con trajes oscuros. Accidentalmente, activa el artefacto y crea un escudo de energía que lo protege."
+          }
+        ]
       },
-      "country": "United States"
-    }
+      {
+        "id": 2,
+        "title": "Capítulo 2: La Conexión",
+        "trama": "Alex busca respuestas y encuentra a Elara, una misteriosa mujer que parece saber mucho sobre el artefacto.",
+        "duracion": "45 min",
+        "scenes": []
+      }
+    ]
   },
-  "ein": "977-175",
-  "ssn": "900-590-289",
-  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36",
-  "crypto": {
-    "coin": "Bitcoin",
-    "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
-    "network": "Ethereum (ERC20)"
-  },
-  "role": "admin"
-}
+  {
+    "id": 2,
+    "title": "Temporada 2",
+    "trama": "La segunda temporada explora las consecuencias de las acciones de Alex. Ahora fugitivo, busca aliados para luchar contra la organización de Draven, quien intensifica su persecución y revela tener una conexión personal con el pasado de Alex.",
+    "numero_capitulos": 1,
+    "personajes": [
+      "Alex",
+      "Draven",
+      "Elara",
+      "General Kael",
+      "Nia",
+      "Rylan"
+    ],
+    "capitulos": [
+      {
+        "id": 1,
+        "title": "Capítulo 1: Ecos del Pasado",
+        "trama": "El capítulo 1 se enfoca en la alianza entre Alex y un grupo de rebeldes liderado por Nia. Juntos, planean un audaz golpe contra una de las bases de Draven.",
+        "duracion": "45 min",
+        "scenes": []
+      }
+    ]
+  }
+]
